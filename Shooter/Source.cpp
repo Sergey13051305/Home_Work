@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 using namespace std;
 #define Escape      27
@@ -17,23 +17,23 @@ void main()
 
 		if (key == 'w' || key == 'W'|| key == UP_ARROW)
 		{
-			cout << "Âïåðåä";
+			cout << "Ð’Ð¿ÐµÑ€ÐµÐ´";
 		}
 		else if (key == 'w' || key == 'W' || key == DOWN_ARROW)
 		{
-			cout << "Íàçàä";
+			cout << "ÐÐ°Ð·Ð°Ð´";
 		}
 		else if (key == 'w' || key == 'W' || key == LEFT_ARROW)
 		{
-			cout << "Âëåâî";
+			cout << "Ð’Ð»ÐµÐ²Ð¾";
 		}
 		else if (key == 'w' || key == 'W' || key == RIGHT_ARROW)
 		{
-			cout << "Âïðàâî";
+			cout << "Ð’Ð¿Ñ€Ð°Ð²Ð¾";
 		}
 		else if (key == ' ')
 		{
-			cout << "Ïðûæîê";
+			cout << "ÐŸÑ€Ñ‹Ð¶Ð¾Ðº";
 		}
 	} while (key!=Escape);
 
